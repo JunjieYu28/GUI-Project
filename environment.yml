@@ -1,0 +1,19 @@
+name: win-gui
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - fastapi
+  - uvicorn
+  - pillow
+  - python-multipart
+  - ipdb
+  - pip
+  - pip:
+      - pywinauto
+      - uiautomation
+      - psutil
+      - requests
+
+# 若需后期加包改完之后执行 conda env update -f environment.yml

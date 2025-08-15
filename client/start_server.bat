@@ -1,0 +1,4 @@
+@echo off
+cd /d %~dp0
+uvicorn windows_automation_server:app --host 0.0.0.0 --port 5000 --reload
+pause
