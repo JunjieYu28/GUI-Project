@@ -1,5 +1,0 @@
-fastapi
-uvicorn
-pywinauto
-pillow
-uiautomation
